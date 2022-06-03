@@ -1,0 +1,6 @@
+{
+  "headersubmenu": {
+    "component": "HeaderSubmenu",
+    "composition": "children"
+  }
+}
