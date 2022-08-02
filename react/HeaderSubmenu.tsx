@@ -67,8 +67,7 @@ const HeaderSubmenu: StorefrontFunctionComponent<HeaderSubmenuProps> = ({ menu, 
           <div className={styles.activeSubmenuContainer}>
             <div className={styles.backButtonAndImageContainer}>
               <div onClick={handleGoBack} className={styles.backToMainButton}>◀ All {menuTitle}</div>
-              <div className={styles.activeSubmenuImageContainer}>
-                <img src={activeImage} className={styles.activeSubmenuImage} />
+              <div style={{ backgroundImage: `url(${activeImage})` }} className={styles.activeSubmenuImageContainer}>
               </div>
             </div>
             <div className={styles.textContainer}>
