@@ -28,6 +28,10 @@
 
 .loadingDirectLink {}
 
+.showAllLink {}
+
+.showAllLinkContainer {}
+
 .submenuCategory:focus-visible,
 .submenuCategoryNoPhotos:focus-visible,
 .backToMainButton:focus-visible {
