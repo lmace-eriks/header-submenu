@@ -127,6 +127,11 @@ HeaderSubmenu.schema = {
   description: 'editor.headersubmenu.description',
   type: 'object',
   properties: {
+    showAllLink: {
+      title: "Show All URL",
+      description: "Text will read 'Show All (section)'",
+      type: "string"
+    },
     menu: {
       title: "Menu List",
       type: "array",
